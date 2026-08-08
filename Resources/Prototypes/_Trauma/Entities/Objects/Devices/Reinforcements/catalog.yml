@@ -1,7 +1,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 # Security
-
 - type: listing
   id: ReinforcementDetective
   name: reinforcement-detective-name
@@ -11,7 +10,7 @@
     sprite: Markers/jobs.rsi
     state: detective
   cost:
-    Spesos: 5000
+    Spesos: 4000
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -33,7 +32,6 @@
   restockTime: 0
   resetRestockOnPurchase: true
   restockAfterPurchase: 60
-
 - type: listing
   id: SecoffReinforcementExpress
   name: reinforcement-sec-express-name
@@ -43,7 +41,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 4000
+    Spesos: 3000
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -59,7 +57,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 7500
+    Spesos: 6500
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -75,7 +73,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 7500
+    Spesos: 6000
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -91,7 +89,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 7500
+    Spesos: 6500
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -107,7 +105,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 10000
+    Spesos: 11000
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -123,7 +121,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 7500
+    Spesos: 5000
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -139,12 +137,12 @@
     sprite: Markers/jobs.rsi
     state: brigmedic
   cost:
-    Spesos: 10000
+    Spesos: 7500
   categories:
   - ReinforcementsHoS
   restockTime: 0
   resetRestockOnPurchase: true
-  restockAfterPurchase: 900
+  restockAfterPurchase: 600
 
 - type: listing
   id: ReinforcementCadet
@@ -161,7 +159,6 @@
   restockTime: 0
   resetRestockOnPurchase: true
   restockAfterPurchase: 60
-
 # Medical
 
 - type: listing
