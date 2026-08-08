@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 # Security
+
 - type: listing
   id: ReinforcementDetective
   name: reinforcement-detective-name
@@ -10,7 +11,7 @@
     sprite: Markers/jobs.rsi
     state: detective
   cost:
-    Spesos: 4000
+    Spesos: 4000 # SIS 5000
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -41,7 +42,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 3000
+    Spesos: 3000 # SIS 4000
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -57,7 +58,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 6500
+    Spesos: 6500 # SIS 7500
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -73,7 +74,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 6000
+    Spesos: 6000 # SIS 7500
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -89,7 +90,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 6500
+    Spesos: 6500 # SIS 7500
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -105,7 +106,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 11000
+    Spesos: 11000 # SIS 10000
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -121,7 +122,7 @@
     sprite: Markers/jobs.rsi
     state: security_officer
   cost:
-    Spesos: 5000
+    Spesos: 5500 # SIS 7500
   categories:
   - ReinforcementsHoS
   restockTime: 0
@@ -137,12 +138,12 @@
     sprite: Markers/jobs.rsi
     state: brigmedic
   cost:
-    Spesos: 7500
+    Spesos: 8000 # SIS 8000
   categories:
   - ReinforcementsHoS
   restockTime: 0
   resetRestockOnPurchase: true
-  restockAfterPurchase: 600
+  restockAfterPurchase: 600 # SIS 900
 
 - type: listing
   id: ReinforcementCadet
@@ -153,12 +154,13 @@
     sprite: Markers/jobs.rsi
     state: security_cadet
   cost:
-    Spesos: 500
+    Spesos: 1000 # SIS 500
   categories:
   - ReinforcementsHoS
   restockTime: 0
   resetRestockOnPurchase: true
   restockAfterPurchase: 60
+
 # Medical
 
 - type: listing

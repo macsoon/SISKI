@@ -48,12 +48,12 @@
   parent: ReinforcementBeaconOfficerTemplate
   id: ReinforcementBeaconOfficerSpecLaser
   equipment:
-    head: ClothingHeadHelmetSwat # SIS  ClothingHeadHelmetRiot - ClothingHeadHelmetSwat
+    head: ClothingHeadHelmetSwat # SIS  ClothingHeadHelmetRiot
     outerClothing: ClothingOuterArmorBasicSlim
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58 # inky
     pocket2: MagazinePistol # inky
-    suitstorage: WeaponLaserGunAssault # SIS
+    suitstorage: WeaponLaserGunAssault # SIS WeaponLaserCarbine
 
 - type: startingGear
   parent: ReinforcementBeaconOfficerTemplate
@@ -80,12 +80,12 @@
   parent: ReinforcementBeaconOfficerTemplate
   id: ReinforcementBeaconOfficerSpecRiotRanged
   equipment:
-    head: ClothingHeadHelmetSwat # SIS  ClothingHeadHelmetRiot - ClothingHeadHelmetSwat
-    outerClothing: ClothingOuterArmorBasicSlim # SIS ClothingOuterArmorRiot - ClothingOuterArmorBasicSlim
+    head: ClothingHeadHelmetSwat # SIS  ClothingHeadHelmetRiot
+    outerClothing: ClothingOuterArmorBasicSlim # SIS ClothingOuterArmorRiot
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58 # inky
     pocket2: MagazinePistol # inky
-    suitstorage: WeaponShotgunEnforcer # SIS WeaponShotgunEnforcerRubber - WeaponShotgunEnforcer
+    suitstorage: WeaponShotgunEnforcer # SIS WeaponShotgunEnforcerRubber
   storage:
     back:
     - TearGasGrenade # 1
@@ -98,9 +98,9 @@
   parent: ReinforcementBeaconOfficerTemplate
   id: ReinforcementBeaconOfficerSpecHeavyLaser
   equipment:
-    head: ClothingHeadHelmetSwat #SIS
+    head: ClothingHeadHelmetSwat #SIS ClothingHeadHelmetBasicAlt
     eyes: ClothingEyesGlassesSecurityAdvanced # SIS
-    outerClothing: ClothingOuterVestWeb # SIS
+    outerClothing: ClothingOuterVestWeb # SIS ClothingOuterArmorBasicSlim
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58 # inky
     pocket2: MagazinePistol # inky
@@ -116,9 +116,8 @@
   parent: ReinforcementBeaconOfficerTemplate
   id: ReinforcementBeaconOfficerSpecShield
   equipment:
-    head: ClothingHeadHelmetRiot # SIS ClothingHeadHelmetBasicAlt - ClothingHeadHelmetRiot
-    outerClothing: ClothingOuterArmorRiot # SIS ClothingOuterArmorBasicSlim - ClothingOuterArmorRiot
-    belt: ClothingBeltSecurityFilled
+    head: ClothingHeadHelmetRiot # SIS ClothingHeadHelmetBasicAlt
+    outerClothing: ClothingOuterArmorRiot # SIS ClothingOuterArmorBasicSlim
     pocket1: MagazinePistol # inky
     pocket2: WeaponPistolMk58
     suitstorage: WeaponShotgunEnforcerRubber # SIS
@@ -144,7 +143,7 @@
     gloves: ClothingHandsGlovesNitrile
     outerClothing: ClothingOuterCoatAMG
     belt: ClothingBeltMedicalEMTFilled
-    pocket1: WeaponPistolMk58 # SIS
+    pocket1: WeaponPistolMk58 # SIS WeaponDisabler
     pocket2: MagazinePistol # SIS
   storage:
     back:
